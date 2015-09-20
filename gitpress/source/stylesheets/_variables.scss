@@ -11,16 +11,16 @@ $bootstrap-sass-asset-helper: false !default;
 
 $gray-base:              #000 !default;
 $gray-darker:            lighten($gray-base, 13.5%) !default; // #222
-$gray-dark:              lighten($gray-base, 20%) !default;   // #333
+$gray-dark:              #313740
 $gray:                   lighten($gray-base, 33.5%) !default; // #555
 $gray-light:             lighten($gray-base, 70%) !default;   // #999
 $gray-lighter:           lighten($gray-base, 93.5%) !default; // #eee
 
-$brand-primary:         #4582EC !default;
-$brand-success:         #3FAD46 !default;
-$brand-info:            #5bc0de !default;
-$brand-warning:         #f0ad4e !default;
-$brand-danger:          #d9534f !default;
+$brand-primary:         #FFAA00 !default;
+$brand-success:         #5773FF !default;
+$brand-info:            #70476E !default;
+$brand-warning:         #FE5F0B !default;
+$brand-danger:          #CE4635 !default;
 
 
 //== Scaffolding
@@ -28,7 +28,7 @@ $brand-danger:          #d9534f !default;
 //## Settings for some of the most global styles.
 
 //** Background color for `<body>`.
-$body-bg:               #efefef !default;
+$body-bg:               #F6F3E8 !default;
 //** Global text color on `<body>`.
 $text-color:            $gray-dark !default;
 
@@ -150,7 +150,7 @@ $btn-default-color:              $text-color !default;
 $btn-default-bg:                 #fff !default;
 $btn-default-border:             #ddd !default;
 
-$btn-primary-color:              #fff !default;
+$btn-primary-color:              $text-color !default;
 $btn-primary-bg:                 $brand-primary !default;
 $btn-primary-border:             $btn-primary-bg !default;
 
