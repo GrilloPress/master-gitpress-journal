@@ -1,0 +1,18 @@
+// float brand to right which is ignored on full width
+// screens but as the navbar collapses it goes to the right
+
+.navbar-brand {
+  
+  float: right;
+  
+}
+
+// Make the navbar toggle button on mobile
+// scrrens shift to the left
+
+.navbar-toggle {
+  
+  float: left;
+  margin-left: 15px;
+  
+}
