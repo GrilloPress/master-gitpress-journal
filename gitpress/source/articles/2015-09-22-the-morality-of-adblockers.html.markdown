@@ -20,7 +20,7 @@ The motivation for the development of these powerful blocking actions are said t
 >
 > There is a whole universe of features that can take advantage of the content blocker API, around privacy or better user experience. We would love to hear your feedback about what works well, what needs improvement, and what is missing." 
 >
-> Benjamin Poulain https://www.webkit.org/blog/3476/content-blockers-first-look/
+> Benjamin Poulain, [source](https://www.webkit.org/blog/3476/content-blockers-first-look/)
 
 The two driving forces articulated by Benjamin Poulain are:
 

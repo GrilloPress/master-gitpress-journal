@@ -11,7 +11,7 @@ activate :blog do |blog|
   blog.permalink = "{year}/{month}/{title}.html"
   # Matcher for blog source files
   # blog.sources = "{year}-{month}-{day}-{title}.html"
-  blog.taglink = "journals/{tag}.html"
+  blog.taglink = "collections/{tag}.html"
   # blog.layout = "layout"
   # blog.summary_separator = /(READMORE)/
   # blog.summary_length = 250
@@ -20,7 +20,7 @@ activate :blog do |blog|
   # blog.day_link = "{year}/{month}/{day}.html"
   # blog.default_extension = ".markdown"
 
-  blog.tag_template = "tag.html"
+  blog.tag_template = "collections.html"
   blog.calendar_template = "calendar.html"
 
   # Enable pagination
