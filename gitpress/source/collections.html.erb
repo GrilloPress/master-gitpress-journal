@@ -4,13 +4,7 @@ per_page: 12
 ---
 <p class="lead">Articles tagged '<%= tagname %>'</p>
 
-<% if paginate && num_pages > 1 %>
-  <p>Page <%= page_number %> of <%= num_pages %></p>
 
-  <% if prev_page %>
-    <p><%= link_to 'Previous page', prev_page %></p>
-  <% end %>
-<% end %>
 
 
   <% page_articles.each_with_index do |article, i| %>
@@ -20,8 +14,18 @@ per_page: 12
   </article>
   <% end %>
 
-<% if paginate %>
-  <% if next_page %>
-    <p><%= link_to 'Next page', next_page %></p>
-  <% end %>
-<% end %>
+<nav>
+  <ul class="pager">
+    <% if paginate && num_pages > 1 %>
+      <% if prev_page %>
+        <li class="previous"><%= link_to 'Previous page', prev_page %></li>
+      <% end %>
+    <% end %>
+
+    <% if paginate %>
+      <% if next_page %>
+        <li class="next"><%= link_to 'Next page', next_page %></li>
+      <% end %>
+    <% end %>
+  </ul>
+</nav>
