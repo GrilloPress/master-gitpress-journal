@@ -1,7 +1,8 @@
 ---
 title: The Morality of Adblockers
 date: 2015-09-22 17:13 UTC
-tags: morality, 
+tags: morality
+published: false
 ---
 
 # The Morality of Adblockers
